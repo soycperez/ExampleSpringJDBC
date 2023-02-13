@@ -1,0 +1,1387 @@
+2023-01-08 15:03:53,027 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 15:03:53,035 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 15:03:53,055 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:03:53,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 15:03:53,618 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 15:03:59,793 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:03:59,804 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:03:59,807 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:03:59,809 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:03:59,827 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:04:00,167 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 15:04:01,763 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 15:04:02,057 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 100) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:04:02,921 INFO  [stdout] (ServerService Thread Pool -- 100) 
+2023-01-08 15:04:02,927 INFO  [stdout] (ServerService Thread Pool -- 100)   .   ____          _            __ _ _
+2023-01-08 15:04:02,930 INFO  [stdout] (ServerService Thread Pool -- 100)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:04:02,931 INFO  [stdout] (ServerService Thread Pool -- 100) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:04:02,935 INFO  [stdout] (ServerService Thread Pool -- 100)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:04:02,937 INFO  [stdout] (ServerService Thread Pool -- 100)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:04:02,937 INFO  [stdout] (ServerService Thread Pool -- 100)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:04:02,942 INFO  [stdout] (ServerService Thread Pool -- 100)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:04:02,943 INFO  [stdout] (ServerService Thread Pool -- 100) 
+2023-01-08 15:04:02,949 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 15:04:03,100 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 100) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 15004 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:04:03,103 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 100) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:04:05,184 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 100) Initializing Spring embedded WebApplicationContext
+2023-01-08 15:04:05,184 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 100) Root WebApplicationContext: initialization completed in 1967 ms
+2023-01-08 15:04:06,470 INFO  [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] (ServerService Thread Pool -- 100) Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-08 15:04:06,945 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 100) Context refreshed
+2023-01-08 15:04:06,978 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 100) Found 1 custom documentation plugin(s)
+2023-01-08 15:04:07,033 INFO  [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] (ServerService Thread Pool -- 100) Scanning for api listing references
+2023-01-08 15:04:07,457 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 100) Started ServletInitializer in 5.2 seconds (JVM running for 26.025)
+2023-01-08 15:04:07,584 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 100) Inicializando Mojarra 2.3.9.SP05 para el contexto '/ExampleSpringJDBC'
+2023-01-08 15:04:08,749 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0021: Contexto de Web registrado: '/ExampleSpringJDBC' para el servidor 'default-server'
+2023-01-08 15:04:08,942 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:04:09,063 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 15:04:09,071 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 15:04:09,071 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 15:04:09,073 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició en 27144ms - Inició 532 de 758 servicios (374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 15:04:09,976 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 15:04:09,978 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-01-08 15:04:09,985 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 7 ms
+2023-01-08 15:04:10,021 WARN  [org.springframework.web.servlet.PageNotFound] (default task-1) No mapping for GET /ExampleSpringJDBC/
+2023-01-08 15:04:24,302 WARN  [org.springframework.web.servlet.PageNotFound] (default task-1) No mapping for GET /ExampleSpringJDBC/swagger-ui.html
+2023-01-08 15:06:15,358 WARN  [org.springframework.web.servlet.PageNotFound] (default task-1) No mapping for GET /ExampleSpringJDBC/wswsw
+2023-01-08 15:13:39,371 WARN  [org.springframework.web.servlet.PageNotFound] (default task-1) No mapping for GET /ExampleSpringJDBC/
+2023-01-08 15:14:03,062 WARN  [org.springframework.web.servlet.PageNotFound] (default task-1) No mapping for GET /ExampleSpringJDBC/
+2023-01-08 15:15:01,179 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0272: Suspendiendo el servidor
+2023-01-08 15:15:01,200 INFO  [org.jboss.as.ejb3] (management-handler-thread - 3) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:15:01,214 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Apagando en respuesta de la operación administrativa 'shutdown'
+2023-01-08 15:15:01,288 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Sesión de correo desenlazada [java:jboss/mail/Default]
+2023-01-08 15:15:01,300 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 14) WFLYUT0022: Cancelado el registro del contexto de Web: '/ExampleSpringJDBC' del servidor 'default-server'
+2023-01-08 15:15:01,306 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 14) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-08 15:15:01,312 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 14) Closing Spring root WebApplicationContext
+2023-01-08 15:15:01,400 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:15:01,413 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host deteniéndose
+2023-01-08 15:15:01,424 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2023-01-08 15:15:01,477 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP oyente default está en suspendiéndose
+2023-01-08 15:15:01,477 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS oyente https está en suspendiéndose
+2023-01-08 15:15:01,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2023-01-08 15:15:01,493 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2023-01-08 15:15:01,501 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.28.SP1-redhat-00001 deteniéndose
+2023-01-08 15:15:01,529 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 112) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2023-01-08 15:15:02,113 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 879ms
+2023-01-08 15:15:02,139 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) detenido en 910ms
+2023-01-08 15:15:06,472 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2023-01-08 15:15:07,274 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2023-01-08 15:15:07,300 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2023-01-08 15:15:07,500 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) iniciando
+2023-01-08 15:15:07,502 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Propiedades del sistema configuradas:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre
+	java.io.tmpdir = C:\Users\CESARP~1\AppData\Local\Temp\
+	java.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Cesar Perez\AppData\Local\Microsoft\WindowsApps;C:\Users\Cesar Perez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Desarrollo\IDE\sts-4.16.1.RELEASE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4.1+1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.4.1+1
+	java.version = 17.0.4.1
+	java.version.date = 2022-08-12
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.4.1+1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3
+	jboss.host.name = desktop-85q69qe
+	jboss.modules.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-85q69qe
+	jboss.qualified.host.name = desktop-85q69qe
+	jboss.server.base.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	jboss.server.config.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log
+	jboss.server.name = desktop-85q69qe
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.3
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = MX
+	user.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin
+	user.home = C:\Users\Cesar Perez
+	user.language = es
+	user.name = Cesar Perez
+	user.script = 
+	user.timezone = America/Mexico_City
+	user.variant = 
+2023-01-08 15:15:07,508 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Argumentos de VM: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.3 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log -Dlogging.configuration=file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties -Djboss.home.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3 -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-01-08 15:15:09,114 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2023-01-08 15:15:10,330 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:15:10,364 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 30) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:15:10,497 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Se encontró ExampleSpringJDBC-0.0.1-SNAPSHOT.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado ExampleSpringJDBC-0.0.1-SNAPSHOT.war.dodeploy
+2023-01-08 15:15:10,571 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2023-01-08 15:15:10,619 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.7.7.Final-redhat-00001
+2023-01-08 15:15:10,650 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2023-01-08 15:15:10,881 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-01-08 15:15:10,939 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activación del subsistema de configuración WildFly MicroProfile
+2023-01-08 15:15:10,953 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activación del subsistema MicroProfile OpenTracing
+2023-01-08 15:15:10,974 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2023-01-08 15:15:10,977 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-01-08 15:15:10,980 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activación del subsistema de estado de Eclipse MicroProfile
+2023-01-08 15:15:10,984 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activación del subsistema de métricas de Eclipse MicroProfile
+2023-01-08 15:15:11,034 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-01-08 15:15:11,043 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy versión 3.9.3.SP1-redhat-00001
+2023-01-08 15:15:11,055 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-01-08 15:15:11,088 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activando WebServices Extension
+2023-01-08 15:15:11,117 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-01-08 15:15:11,177 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 iniciando
+2023-01-08 15:15:11,186 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2023-01-08 15:15:11,315 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00005
+2023-01-08 15:15:11,378 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-01-08 15:15:11,389 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso 'C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-08 15:15:11,410 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-01-08 15:15:11,430 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2023-01-08 15:15:12,470 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 8 con los hilos de tareas 64 en base a los procesadores 4 disponibles.
+2023-01-08 15:15:12,480 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 64 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2023-01-08 15:15:12,480 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 16 (por clase), el cual se deriva del número de CPUs en este host. 
+2023-01-08 15:15:12,559 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2023-01-08 15:15:12,588 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.16.Final-redhat-00001
+2023-01-08 15:15:12,617 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 15:15:12,621 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 15:15:12,647 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:15:12,858 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: El servidor ha iniciado default-server.
+2023-01-08 15:15:12,865 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host iniciando
+2023-01-08 15:15:12,882 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:15:12,944 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2023-01-08 15:15:13,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 15:15:13,192 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:15:13,337 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 15:15:19,782 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:15:19,790 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:15:19,792 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:15:19,795 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:15:19,805 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:15:19,991 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 15:15:20,695 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 15:15:21,058 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 90) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:15:21,737 INFO  [stdout] (ServerService Thread Pool -- 90) 
+2023-01-08 15:15:21,738 INFO  [stdout] (ServerService Thread Pool -- 90)   .   ____          _            __ _ _
+2023-01-08 15:15:21,739 INFO  [stdout] (ServerService Thread Pool -- 90)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:15:21,739 INFO  [stdout] (ServerService Thread Pool -- 90) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:15:21,741 INFO  [stdout] (ServerService Thread Pool -- 90)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:15:21,742 INFO  [stdout] (ServerService Thread Pool -- 90)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:15:21,743 INFO  [stdout] (ServerService Thread Pool -- 90)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:15:21,746 INFO  [stdout] (ServerService Thread Pool -- 90)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:15:21,752 INFO  [stdout] (ServerService Thread Pool -- 90) 
+2023-01-08 15:15:21,773 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 15:15:21,904 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 6368 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:15:21,909 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:15:23,722 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 90) Initializing Spring embedded WebApplicationContext
+2023-01-08 15:15:23,725 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 90) Root WebApplicationContext: initialization completed in 1698 ms
+2023-01-08 15:15:24,662 INFO  [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] (ServerService Thread Pool -- 90) Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-08 15:15:25,100 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 90) Context refreshed
+2023-01-08 15:15:25,142 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 90) Found 1 custom documentation plugin(s)
+2023-01-08 15:15:25,219 INFO  [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] (ServerService Thread Pool -- 90) Scanning for api listing references
+2023-01-08 15:15:25,567 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) Started ServletInitializer in 4.394 seconds (JVM running for 21.351)
+2023-01-08 15:15:25,662 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Inicializando Mojarra 2.3.9.SP05 para el contexto '/ExampleSpringJDBC'
+2023-01-08 15:15:26,761 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Contexto de Web registrado: '/ExampleSpringJDBC' para el servidor 'default-server'
+2023-01-08 15:15:26,932 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:15:27,064 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 15:15:27,072 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 15:15:27,073 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 15:15:27,074 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició en 22120ms - Inició 532 de 758 servicios (374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 15:15:34,313 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 15:15:34,314 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-01-08 15:15:34,316 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 2 ms
+2023-01-08 15:16:23,459 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspendiendo el servidor
+2023-01-08 15:16:23,467 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:16:23,472 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Apagando en respuesta de la operación administrativa 'shutdown'
+2023-01-08 15:16:23,514 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Sesión de correo desenlazada [java:jboss/mail/Default]
+2023-01-08 15:16:23,534 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 108) WFLYUT0022: Cancelado el registro del contexto de Web: '/ExampleSpringJDBC' del servidor 'default-server'
+2023-01-08 15:16:23,535 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 108) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-08 15:16:23,537 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 108) Closing Spring root WebApplicationContext
+2023-01-08 15:16:23,632 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host deteniéndose
+2023-01-08 15:16:23,651 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:16:23,671 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2023-01-08 15:16:23,683 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS oyente https está en suspendiéndose
+2023-01-08 15:16:23,685 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2023-01-08 15:16:23,704 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 120) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2023-01-08 15:16:23,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP oyente default está en suspendiéndose
+2023-01-08 15:16:23,706 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2023-01-08 15:16:23,707 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.28.SP1-redhat-00001 deteniéndose
+2023-01-08 15:16:24,162 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 673ms
+2023-01-08 15:16:24,310 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) detenido en 826ms
+2023-01-08 15:16:25,772 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2023-01-08 15:16:26,551 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2023-01-08 15:16:26,572 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2023-01-08 15:16:26,939 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) iniciando
+2023-01-08 15:16:26,943 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Propiedades del sistema configuradas:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre
+	java.io.tmpdir = C:\Users\CESARP~1\AppData\Local\Temp\
+	java.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Cesar Perez\AppData\Local\Microsoft\WindowsApps;C:\Users\Cesar Perez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Desarrollo\IDE\sts-4.16.1.RELEASE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4.1+1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.4.1+1
+	java.version = 17.0.4.1
+	java.version.date = 2022-08-12
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.4.1+1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3
+	jboss.host.name = desktop-85q69qe
+	jboss.modules.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-85q69qe
+	jboss.qualified.host.name = desktop-85q69qe
+	jboss.server.base.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	jboss.server.config.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log
+	jboss.server.name = desktop-85q69qe
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.3
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = MX
+	user.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin
+	user.home = C:\Users\Cesar Perez
+	user.language = es
+	user.name = Cesar Perez
+	user.script = 
+	user.timezone = America/Mexico_City
+	user.variant = 
+2023-01-08 15:16:26,950 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Argumentos de VM: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.3 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log -Dlogging.configuration=file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties -Djboss.home.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3 -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-01-08 15:16:28,827 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2023-01-08 15:16:29,841 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:16:29,881 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:16:29,990 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Se encontró ExampleSpringJDBC-0.0.1-SNAPSHOT.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado ExampleSpringJDBC-0.0.1-SNAPSHOT.war.dodeploy
+2023-01-08 15:16:30,086 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2023-01-08 15:16:30,125 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.7.7.Final-redhat-00001
+2023-01-08 15:16:30,162 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2023-01-08 15:16:30,349 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-01-08 15:16:30,296 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-01-08 15:16:30,392 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2023-01-08 15:16:30,438 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy versión 3.9.3.SP1-redhat-00001
+2023-01-08 15:16:30,453 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activación del subsistema de configuración WildFly MicroProfile
+2023-01-08 15:16:30,462 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activación del subsistema MicroProfile OpenTracing
+2023-01-08 15:16:30,478 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-01-08 15:16:30,494 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activación del subsistema de estado de Eclipse MicroProfile
+2023-01-08 15:16:30,505 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activación del subsistema de métricas de Eclipse MicroProfile
+2023-01-08 15:16:30,543 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-01-08 15:16:30,579 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activando WebServices Extension
+2023-01-08 15:16:30,594 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-01-08 15:16:30,686 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 iniciando
+2023-01-08 15:16:30,708 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00005
+2023-01-08 15:16:30,721 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2023-01-08 15:16:30,849 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-01-08 15:16:30,860 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-01-08 15:16:30,882 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso 'C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-08 15:16:30,933 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2023-01-08 15:16:31,766 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 8 con los hilos de tareas 64 en base a los procesadores 4 disponibles.
+2023-01-08 15:16:31,792 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 16 (por clase), el cual se deriva del número de CPUs en este host. 
+2023-01-08 15:16:31,792 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 64 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2023-01-08 15:16:31,889 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2023-01-08 15:16:31,914 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.16.Final-redhat-00001
+2023-01-08 15:16:31,966 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: El servidor ha iniciado default-server.
+2023-01-08 15:16:31,992 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host iniciando
+2023-01-08 15:16:31,999 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 15:16:32,029 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:16:32,070 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 15:16:32,076 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2023-01-08 15:16:32,233 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:16:32,303 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 15:16:32,388 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:16:32,514 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 15:16:38,507 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:16:38,516 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:16:38,519 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:16:38,521 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:16:38,528 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:16:38,717 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 15:16:39,357 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 15:16:39,577 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:16:40,250 INFO  [stdout] (ServerService Thread Pool -- 95) 
+2023-01-08 15:16:40,257 INFO  [stdout] (ServerService Thread Pool -- 95)   .   ____          _            __ _ _
+2023-01-08 15:16:40,264 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 15:16:40,263 INFO  [stdout] (ServerService Thread Pool -- 95)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:16:40,268 INFO  [stdout] (ServerService Thread Pool -- 95) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:16:40,269 INFO  [stdout] (ServerService Thread Pool -- 95)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:16:40,270 INFO  [stdout] (ServerService Thread Pool -- 95)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:16:40,271 INFO  [stdout] (ServerService Thread Pool -- 95)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:16:40,272 INFO  [stdout] (ServerService Thread Pool -- 95)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:16:40,274 INFO  [stdout] (ServerService Thread Pool -- 95) 
+2023-01-08 15:16:40,402 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 95) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 13780 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:16:40,407 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 95) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:16:42,256 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) Initializing Spring embedded WebApplicationContext
+2023-01-08 15:16:42,257 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 95) Root WebApplicationContext: initialization completed in 1748 ms
+2023-01-08 15:16:43,553 INFO  [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] (ServerService Thread Pool -- 95) Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-08 15:16:44,046 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 95) Context refreshed
+2023-01-08 15:16:44,082 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 95) Found 1 custom documentation plugin(s)
+2023-01-08 15:16:44,088 WARN  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 95) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2023-01-08 15:16:44,129 INFO  [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] (ServerService Thread Pool -- 95) 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 15:16:44,172 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 95) Application run failed: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 35 more
+
+2023-01-08 15:16:44,223 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 95) MSC000001: Failed to start service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:81)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:254)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	... 8 more
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	... 10 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 35 more
+
+2023-01-08 15:16:44,245 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operación ("deploy") falló - dirección: ([("deployment" => "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")]) - descripción de la falla: {"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"ExampleSpringJDBC-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()\" because the return value of \"springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)\" is null
+    Caused by: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()\" because the return value of \"springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)\" is null
+    Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()\" because the return value of \"springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)\" is null
+    Caused by: java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()\" because the return value of \"springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)\" is null"}}
+2023-01-08 15:16:44,441 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:16:44,450 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+WFLYCTL0448: Los servicios adicionales 1 han caído debido a que sus dependencias están faltantes o fallaron
+2023-01-08 15:16:44,654 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 15:16:44,663 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 15:16:44,664 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 15:16:44,664 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició (con errores) en 19628ms - Inició 528 de 758 servicios (3 servicios fallaron o faltan dependencias, 374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 15:20:24,860 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspendiendo el servidor
+2023-01-08 15:20:24,865 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:20:24,893 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Apagando en respuesta de la operación administrativa 'shutdown'
+2023-01-08 15:20:25,031 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0002: Sesión de correo desenlazada [java:jboss/mail/Default]
+2023-01-08 15:20:25,076 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:20:25,079 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2023-01-08 15:20:25,084 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host deteniéndose
+2023-01-08 15:20:25,103 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 117) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2023-01-08 15:20:25,134 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP oyente default está en suspendiéndose
+2023-01-08 15:20:25,134 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2023-01-08 15:20:25,135 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS oyente https está en suspendiéndose
+2023-01-08 15:20:25,136 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2023-01-08 15:20:25,140 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 2.0.28.SP1-redhat-00001 deteniéndose
+2023-01-08 15:20:26,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 1218ms
+2023-01-08 15:20:26,228 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) detenido en 1318ms
+2023-01-08 15:24:23,353 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2023-01-08 15:24:24,207 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2023-01-08 15:24:24,221 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2023-01-08 15:24:24,419 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) iniciando
+2023-01-08 15:24:24,422 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Propiedades del sistema configuradas:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre
+	java.io.tmpdir = C:\Users\CESARP~1\AppData\Local\Temp\
+	java.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Cesar Perez\AppData\Local\Microsoft\WindowsApps;C:\Users\Cesar Perez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Desarrollo\IDE\sts-4.16.1.RELEASE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4.1+1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.4.1+1
+	java.version = 17.0.4.1
+	java.version.date = 2022-08-12
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.4.1+1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3
+	jboss.host.name = desktop-85q69qe
+	jboss.modules.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-85q69qe
+	jboss.qualified.host.name = desktop-85q69qe
+	jboss.server.base.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	jboss.server.config.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log
+	jboss.server.name = desktop-85q69qe
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.3
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = MX
+	user.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin
+	user.home = C:\Users\Cesar Perez
+	user.language = es
+	user.name = Cesar Perez
+	user.script = 
+	user.timezone = America/Mexico_City
+	user.variant = 
+2023-01-08 15:24:24,427 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Argumentos de VM: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.3 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log -Dlogging.configuration=file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties -Djboss.home.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3 -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-01-08 15:24:27,285 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2023-01-08 15:24:29,013 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:24:29,062 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:24:29,194 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-intentando la implementación fallida ExampleSpringJDBC-0.0.1-SNAPSHOT.war
+2023-01-08 15:24:29,272 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Se encontró ExampleSpringJDBC-0.0.1-SNAPSHOT.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado ExampleSpringJDBC-0.0.1-SNAPSHOT.war.dodeploy
+2023-01-08 15:24:29,380 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2023-01-08 15:24:29,428 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.7.7.Final-redhat-00001
+2023-01-08 15:24:29,457 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2023-01-08 15:24:29,734 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-01-08 15:24:29,792 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activación del subsistema de configuración WildFly MicroProfile
+2023-01-08 15:24:29,799 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activación del subsistema MicroProfile OpenTracing
+2023-01-08 15:24:29,810 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2023-01-08 15:24:29,814 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-01-08 15:24:29,816 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activación del subsistema de estado de Eclipse MicroProfile
+2023-01-08 15:24:29,822 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activación del subsistema de métricas de Eclipse MicroProfile
+2023-01-08 15:24:29,895 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy versión 3.9.3.SP1-redhat-00001
+2023-01-08 15:24:29,905 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-01-08 15:24:29,991 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activando WebServices Extension
+2023-01-08 15:24:30,010 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-01-08 15:24:30,038 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-01-08 15:24:30,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 iniciando
+2023-01-08 15:24:30,152 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2023-01-08 15:24:30,247 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00005
+2023-01-08 15:24:30,298 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso 'C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-08 15:24:30,319 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-01-08 15:24:30,404 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-01-08 15:24:30,433 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2023-01-08 15:24:31,847 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 8 con los hilos de tareas 64 en base a los procesadores 4 disponibles.
+2023-01-08 15:24:31,859 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 64 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2023-01-08 15:24:31,859 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 16 (por clase), el cual se deriva del número de CPUs en este host. 
+2023-01-08 15:24:32,014 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2023-01-08 15:24:32,042 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.16.Final-redhat-00001
+2023-01-08 15:24:32,100 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: El servidor ha iniciado default-server.
+2023-01-08 15:24:32,120 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 15:24:32,124 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 15:24:32,127 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host iniciando
+2023-01-08 15:24:32,146 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:24:32,260 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:24:32,320 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2023-01-08 15:24:32,562 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:24:32,711 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 15:24:32,997 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 15:24:42,376 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:24:42,380 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:24:42,383 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:24:42,385 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:24:42,390 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:24:42,575 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 15:24:43,646 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 15:24:44,009 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 90) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:24:44,897 INFO  [stdout] (ServerService Thread Pool -- 90) 
+2023-01-08 15:24:44,898 INFO  [stdout] (ServerService Thread Pool -- 90)   .   ____          _            __ _ _
+2023-01-08 15:24:44,898 INFO  [stdout] (ServerService Thread Pool -- 90)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:24:44,899 INFO  [stdout] (ServerService Thread Pool -- 90) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:24:44,900 INFO  [stdout] (ServerService Thread Pool -- 90)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:24:44,900 INFO  [stdout] (ServerService Thread Pool -- 90)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:24:44,901 INFO  [stdout] (ServerService Thread Pool -- 90)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:24:44,903 INFO  [stdout] (ServerService Thread Pool -- 90)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:24:44,906 INFO  [stdout] (ServerService Thread Pool -- 90) 
+2023-01-08 15:24:44,926 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 15:24:45,065 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 16288 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:24:45,069 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:24:46,922 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 90) Initializing Spring embedded WebApplicationContext
+2023-01-08 15:24:46,923 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 90) Root WebApplicationContext: initialization completed in 1716 ms
+2023-01-08 15:24:48,520 INFO  [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] (ServerService Thread Pool -- 90) Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-08 15:24:49,041 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 90) Context refreshed
+2023-01-08 15:24:49,127 INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] (ServerService Thread Pool -- 90) Found 1 custom documentation plugin(s)
+2023-01-08 15:24:49,185 INFO  [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] (ServerService Thread Pool -- 90) Scanning for api listing references
+2023-01-08 15:24:49,595 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 90) Started ServletInitializer in 5.433 seconds (JVM running for 27.59)
+2023-01-08 15:24:49,664 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Inicializando Mojarra 2.3.9.SP05 para el contexto '/ExampleSpringJDBC'
+2023-01-08 15:24:51,632 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Contexto de Web registrado: '/ExampleSpringJDBC' para el servidor 'default-server'
+2023-01-08 15:24:51,894 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:24:52,090 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 15:24:52,103 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 15:24:52,110 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 15:24:52,125 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició en 29693ms - Inició 532 de 758 servicios (374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 15:24:56,370 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 15:24:56,370 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-01-08 15:24:56,374 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 3 ms
+2023-01-08 15:31:05,487 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspendiendo el servidor
+2023-01-08 15:31:05,497 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:31:05,509 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Apagando en respuesta de la operación administrativa 'shutdown'
+2023-01-08 15:31:05,569 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 12) WFLYUT0022: Cancelado el registro del contexto de Web: '/ExampleSpringJDBC' del servidor 'default-server'
+2023-01-08 15:31:05,571 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 12) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-08 15:31:05,573 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 12) Closing Spring root WebApplicationContext
+2023-01-08 15:31:05,638 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Sesión de correo desenlazada [java:jboss/mail/Default]
+2023-01-08 15:31:05,792 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host deteniéndose
+2023-01-08 15:31:05,804 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:31:05,810 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2023-01-08 15:31:05,829 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS oyente https está en suspendiéndose
+2023-01-08 15:31:05,831 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2023-01-08 15:31:05,833 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP oyente default está en suspendiéndose
+2023-01-08 15:31:05,833 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2023-01-08 15:31:05,835 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.0.28.SP1-redhat-00001 deteniéndose
+2023-01-08 15:31:05,846 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 112) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2023-01-08 15:31:06,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 558ms
+2023-01-08 15:31:06,303 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) detenido en 678ms
+2023-01-08 15:47:58,465 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2023-01-08 15:48:00,118 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2023-01-08 15:48:00,136 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2023-01-08 15:48:00,335 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) iniciando
+2023-01-08 15:48:00,338 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Propiedades del sistema configuradas:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre
+	java.io.tmpdir = C:\Users\CESARP~1\AppData\Local\Temp\
+	java.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Cesar Perez\AppData\Local\Microsoft\WindowsApps;C:\Users\Cesar Perez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Desarrollo\IDE\sts-4.16.1.RELEASE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4.1+1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.4.1+1
+	java.version = 17.0.4.1
+	java.version.date = 2022-08-12
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.4.1+1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3
+	jboss.host.name = desktop-85q69qe
+	jboss.modules.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-85q69qe
+	jboss.qualified.host.name = desktop-85q69qe
+	jboss.server.base.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	jboss.server.config.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log
+	jboss.server.name = desktop-85q69qe
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.3
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = MX
+	user.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin
+	user.home = C:\Users\Cesar Perez
+	user.language = es
+	user.name = Cesar Perez
+	user.script = 
+	user.timezone = America/Mexico_City
+	user.variant = 
+2023-01-08 15:48:00,343 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Argumentos de VM: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.3 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log -Dlogging.configuration=file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties -Djboss.home.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3 -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-01-08 15:48:03,390 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2023-01-08 15:48:04,892 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:48:04,963 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 34) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 15:48:05,169 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Se encontró ExampleSpringJDBC-0.0.1-SNAPSHOT.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado ExampleSpringJDBC-0.0.1-SNAPSHOT.war.dodeploy
+2023-01-08 15:48:05,306 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2023-01-08 15:48:05,354 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.7.7.Final-redhat-00001
+2023-01-08 15:48:05,370 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2023-01-08 15:48:05,598 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-01-08 15:48:05,612 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-01-08 15:48:05,659 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2023-01-08 15:48:05,661 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activación del subsistema MicroProfile OpenTracing
+2023-01-08 15:48:05,663 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activación del subsistema de configuración WildFly MicroProfile
+2023-01-08 15:48:05,677 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activación del subsistema de estado de Eclipse MicroProfile
+2023-01-08 15:48:05,688 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activación del subsistema de métricas de Eclipse MicroProfile
+2023-01-08 15:48:05,762 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy versión 3.9.3.SP1-redhat-00001
+2023-01-08 15:48:05,778 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-01-08 15:48:05,779 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activando WebServices Extension
+2023-01-08 15:48:05,804 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00005
+2023-01-08 15:48:05,861 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-01-08 15:48:05,875 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 iniciando
+2023-01-08 15:48:05,884 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2023-01-08 15:48:05,980 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-01-08 15:48:06,058 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-01-08 15:48:06,193 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso 'C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-08 15:48:06,265 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-01-08 15:48:06,366 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2023-01-08 15:48:07,646 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 8 con los hilos de tareas 64 en base a los procesadores 4 disponibles.
+2023-01-08 15:48:07,760 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.16.Final-redhat-00001
+2023-01-08 15:48:07,879 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:48:07,924 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 16 (por clase), el cual se deriva del número de CPUs en este host. 
+2023-01-08 15:48:07,924 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 64 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2023-01-08 15:48:07,996 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2023-01-08 15:48:08,026 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: El servidor ha iniciado default-server.
+2023-01-08 15:48:08,029 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host iniciando
+2023-01-08 15:48:08,061 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 15:48:08,081 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 15:48:08,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:48:08,157 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:48:08,288 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2023-01-08 15:48:08,462 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 15:48:08,802 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 15:48:16,791 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:48:16,809 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:48:16,812 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:48:16,822 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:48:16,855 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:48:16,999 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 15:48:17,859 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 15:48:18,306 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:48:19,345 INFO  [stdout] (ServerService Thread Pool -- 101) 
+2023-01-08 15:48:19,345 INFO  [stdout] (ServerService Thread Pool -- 101)   .   ____          _            __ _ _
+2023-01-08 15:48:19,346 INFO  [stdout] (ServerService Thread Pool -- 101)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:48:19,348 INFO  [stdout] (ServerService Thread Pool -- 101) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:48:19,349 INFO  [stdout] (ServerService Thread Pool -- 101)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:48:19,353 INFO  [stdout] (ServerService Thread Pool -- 101)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:48:19,354 INFO  [stdout] (ServerService Thread Pool -- 101)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:48:19,355 INFO  [stdout] (ServerService Thread Pool -- 101)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:48:19,356 INFO  [stdout] (ServerService Thread Pool -- 101) 
+2023-01-08 15:48:19,401 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 15:48:19,489 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 101) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 14136 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:48:19,491 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 101) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:48:21,372 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) Initializing Spring embedded WebApplicationContext
+2023-01-08 15:48:21,372 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 101) Root WebApplicationContext: initialization completed in 1774 ms
+2023-01-08 15:48:22,865 WARN  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 101) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2023-01-08 15:48:22,888 INFO  [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] (ServerService Thread Pool -- 101) 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 15:48:22,915 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 101) Application run failed: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 35 more
+
+2023-01-08 15:48:22,918 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 101) MSC000001: Failed to start service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:81)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:254)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	... 8 more
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	... 10 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 35 more
+
+2023-01-08 15:48:22,926 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operación ("deploy") falló - dirección: ([("deployment" => "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")]) - descripción de la falla: {"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"ExampleSpringJDBC-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()\" because \"this.condition\" is null
+    Caused by: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()\" because \"this.condition\" is null
+    Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()\" because \"this.condition\" is null
+    Caused by: java.lang.NullPointerException: Cannot invoke \"org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()\" because \"this.condition\" is null"}}
+2023-01-08 15:48:23,049 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:48:23,053 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+WFLYCTL0448: Los servicios adicionales 1 han caído debido a que sus dependencias están faltantes o fallaron
+2023-01-08 15:48:23,135 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 15:48:23,139 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 15:48:23,139 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 15:48:23,140 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició (con errores) en 25798ms - Inició 528 de 758 servicios (3 servicios fallaron o faltan dependencias, 374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 15:52:44,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 164ms
+2023-01-08 15:52:44,062 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 15:52:53,318 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:52:53,322 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:52:53,325 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:52:53,332 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:52:53,338 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 15:52:53,466 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 135) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 15:52:54,359 INFO  [stdout] (ServerService Thread Pool -- 135) 
+2023-01-08 15:52:54,360 INFO  [stdout] (ServerService Thread Pool -- 135)   .   ____          _            __ _ _
+2023-01-08 15:52:54,360 INFO  [stdout] (ServerService Thread Pool -- 135)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 15:52:54,361 INFO  [stdout] (ServerService Thread Pool -- 135) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 15:52:54,361 INFO  [stdout] (ServerService Thread Pool -- 135)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 15:52:54,361 INFO  [stdout] (ServerService Thread Pool -- 135)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 15:52:54,362 INFO  [stdout] (ServerService Thread Pool -- 135)  =========|_|==============|___/=/_/_/_/
+2023-01-08 15:52:54,363 INFO  [stdout] (ServerService Thread Pool -- 135)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 15:52:54,364 INFO  [stdout] (ServerService Thread Pool -- 135) 
+2023-01-08 15:52:54,477 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 135) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 14136 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 15:52:54,478 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 135) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 15:52:54,940 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 135) Application run failed: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:237)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getOrder(AutoConfigurationSorter.java:208)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.access$000(AutoConfigurationSorter.java:154)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter.lambda$getInPriorityOrder$0(AutoConfigurationSorter.java:63)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter.getInPriorityOrder(AutoConfigurationSorter.java:62)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.sortAutoConfigurations(AutoConfigurationImportSelector.java:474)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.selectImports(AutoConfigurationImportSelector.java:459)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:882)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.io.FileNotFoundException: class path resource [org/springdoc/core/SwaggerUiConfigProperties.class] cannot be opened because it does not exist
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:233)
+	... 48 more
+
+2023-01-08 15:52:54,952 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 135) MSC000001: Failed to start service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:81)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.3.3.Final-redhat-00001//org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.lang.RuntimeException: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:254)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+	... 8 more
+Caused by: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:237)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getOrder(AutoConfigurationSorter.java:208)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.access$000(AutoConfigurationSorter.java:154)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter.lambda$getInPriorityOrder$0(AutoConfigurationSorter.java:63)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter.getInPriorityOrder(AutoConfigurationSorter.java:62)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.sortAutoConfigurations(AutoConfigurationImportSelector.java:474)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.selectImports(AutoConfigurationImportSelector.java:459)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:882)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow@7.3.0.GA-redhat-00004//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet@2.0.28.SP1-redhat-00001//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+	... 10 more
+Caused by: java.io.FileNotFoundException: class path resource [org/springdoc/core/SwaggerUiConfigProperties.class] cannot be opened because it does not exist
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at deployment.ExampleSpringJDBC-0.0.1-SNAPSHOT.war//org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:233)
+	... 48 more
+
+2023-01-08 15:52:54,963 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operación ("full-replace-deployment") falló - dirección: ([]) - descripción de la falla: {"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"ExampleSpringJDBC-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.RuntimeException: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+    Caused by: java.lang.RuntimeException: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+    Caused by: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+    Caused by: java.io.FileNotFoundException: class path resource [org/springdoc/core/SwaggerUiConfigProperties.class] cannot be opened because it does not exist"}}
+2023-01-08 15:52:55,143 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Se reemplazó la implementación "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" con la implementación "ExampleSpringJDBC-0.0.1-SNAPSHOT.war"
+2023-01-08 15:52:55,143 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."ExampleSpringJDBC-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.RuntimeException: java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.SwaggerUiConfigProperties
+
+2023-01-08 15:54:17,207 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspendiendo el servidor
+2023-01-08 15:54:17,221 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 15:54:17,230 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Apagando en respuesta de la operación administrativa 'shutdown'
+2023-01-08 15:54:17,403 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Sesión de correo desenlazada [java:jboss/mail/Default]
+2023-01-08 15:54:17,439 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Fuente de datos desenlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 15:54:17,464 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2023-01-08 15:54:17,542 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host deteniéndose
+2023-01-08 15:54:17,628 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP oyente default está en suspendiéndose
+2023-01-08 15:54:17,633 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2023-01-08 15:54:17,650 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 157) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2023-01-08 15:54:17,932 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS oyente https está en suspendiéndose
+2023-01-08 15:54:17,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2023-01-08 15:54:17,952 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.28.SP1-redhat-00001 deteniéndose
+2023-01-08 15:54:18,076 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Se detuvo la implementaciónExampleSpringJDBC-0.0.1-SNAPSHOT.war (runtime-name: ExampleSpringJDBC-0.0.1-SNAPSHOT.war) en 748ms
+2023-01-08 15:54:18,106 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) detenido en 789ms
+2023-01-08 16:03:07,373 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2023-01-08 16:03:08,500 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2023-01-08 16:03:08,519 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2023-01-08 16:03:08,807 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) iniciando
+2023-01-08 16:03:08,809 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Propiedades del sistema configuradas:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre
+	java.io.tmpdir = C:\Users\CESARP~1\AppData\Local\Temp\
+	java.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Desarrollo/IDE/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Cesar Perez\AppData\Local\Microsoft\WindowsApps;C:\Users\Cesar Perez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Desarrollo\IDE\sts-4.16.1.RELEASE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4.1+1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.4.1+1
+	java.version = 17.0.4.1
+	java.version.date = 2022-08-12
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.4.1+1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3
+	jboss.host.name = desktop-85q69qe
+	jboss.modules.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-85q69qe
+	jboss.qualified.host.name = desktop-85q69qe
+	jboss.server.base.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	jboss.server.config.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log
+	jboss.server.name = desktop-85q69qe
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.3
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Desarrollo\IDE\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = MX
+	user.dir = C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin
+	user.home = C:\Users\Cesar Perez
+	user.language = es
+	user.name = Cesar Perez
+	user.script = 
+	user.timezone = America/Mexico_City
+	user.variant = 
+2023-01-08 16:03:08,817 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Argumentos de VM: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.3 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\log\boot.log -Dlogging.configuration=file:C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\logging.properties -Djboss.home.dir=C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3 -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-01-08 16:03:10,859 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2023-01-08 16:03:12,187 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 16:03:12,312 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 36) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2023-01-08 16:03:12,382 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Se encontró ExampleSpringJDBC-0.0.1-SNAPSHOT.war en el directorio de implementación. Para disparar la implementación cree un archivo llamado ExampleSpringJDBC-0.0.1-SNAPSHOT.war.dodeploy
+2023-01-08 16:03:12,499 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2023-01-08 16:03:12,573 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.7.7.Final-redhat-00001
+2023-01-08 16:03:12,618 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2023-01-08 16:03:12,785 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-01-08 16:03:12,839 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activación del subsistema de configuración WildFly MicroProfile
+2023-01-08 16:03:12,849 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activación del subsistema MicroProfile OpenTracing
+2023-01-08 16:03:12,867 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2023-01-08 16:03:12,874 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activación del subsistema de estado de Eclipse MicroProfile
+2023-01-08 16:03:12,878 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activación del subsistema de métricas de Eclipse MicroProfile
+2023-01-08 16:03:12,880 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-01-08 16:03:12,922 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy versión 3.9.3.SP1-redhat-00001
+2023-01-08 16:03:12,944 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-01-08 16:03:12,980 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activando WebServices Extension
+2023-01-08 16:03:13,012 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-01-08 16:03:13,058 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 iniciando
+2023-01-08 16:03:13,060 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Iniciando JCA sub-sistema (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2023-01-08 16:03:13,166 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-01-08 16:03:13,173 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00005
+2023-01-08 16:03:13,384 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-01-08 16:03:13,405 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-01-08 16:03:13,435 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2023-01-08 16:03:13,450 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso 'C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-08 16:03:14,577 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 8 con los hilos de tareas 64 en base a los procesadores 4 disponibles.
+2023-01-08 16:03:14,590 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 16 (por clase), el cual se deriva del número de CPUs en este host. 
+2023-01-08 16:03:14,590 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 64 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2023-01-08 16:03:14,658 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2023-01-08 16:03:14,706 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: No se encontró el KeyStore C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\configuration\application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2023-01-08 16:03:14,707 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Inició FileSystemDeploymentService para el directorio C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\standalone\deployments
+2023-01-08 16:03:14,720 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Iniciando la implementación de ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name: "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 16:03:14,759 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.16.Final-redhat-00001
+2023-01-08 16:03:14,923 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: El servidor ha iniciado default-server.
+2023-01-08 16:03:14,926 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host iniciando
+2023-01-08 16:03:14,955 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2023-01-08 16:03:15,094 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2023-01-08 16:03:15,157 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Fuente de datos enlazados [java:jboss/datasources/ExampleDS]
+2023-01-08 16:03:15,262 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2023-01-08 16:03:15,413 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2023-01-08 16:03:21,442 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 16:03:21,455 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 16:03:21,458 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 16:03:21,461 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 16:03:21,473 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-01-08 16:03:21,690 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinity Minus ONE +2' 9.4.16.Final-redhat-00002
+2023-01-08 16:03:22,367 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2023-01-08 16:03:22,655 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) 2 Spring WebApplicationInitializers detected on classpath
+2023-01-08 16:03:23,389 INFO  [stdout] (ServerService Thread Pool -- 92) 
+2023-01-08 16:03:23,395 INFO  [stdout] (ServerService Thread Pool -- 92)   .   ____          _            __ _ _
+2023-01-08 16:03:23,400 INFO  [stdout] (ServerService Thread Pool -- 92)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-01-08 16:03:23,403 INFO  [stdout] (ServerService Thread Pool -- 92) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-01-08 16:03:23,411 INFO  [stdout] (ServerService Thread Pool -- 92)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-01-08 16:03:23,413 INFO  [stdout] (ServerService Thread Pool -- 92)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-01-08 16:03:23,424 INFO  [stdout] (ServerService Thread Pool -- 92)  =========|_|==============|___/=/_/_/_/
+2023-01-08 16:03:23,436 INFO  [stdout] (ServerService Thread Pool -- 92)  :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+2023-01-08 16:03:23,440 INFO  [stdout] (ServerService Thread Pool -- 92) 
+2023-01-08 16:03:23,475 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 6.0.18.Final-redhat-00001
+2023-01-08 16:03:23,557 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 92) Starting ServletInitializer using Java 17.0.4.1 on DESKTOP-85Q69QE with PID 15200 (started by Cesar Perez in C:\Desarrollo\IDE\Servidor IDE\jboss-eap-7.3\bin)
+2023-01-08 16:03:23,559 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 92) No active profile set, falling back to 1 default profile: "default"
+2023-01-08 16:03:25,149 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Initializing Spring embedded WebApplicationContext
+2023-01-08 16:03:25,150 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 92) Root WebApplicationContext: initialization completed in 1494 ms
+2023-01-08 16:03:30,448 INFO  [dev.cperez.mx.ServletInitializer] (ServerService Thread Pool -- 92) Started ServletInitializer in 7.668 seconds (JVM running for 24.382)
+2023-01-08 16:03:30,527 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 92) Inicializando Mojarra 2.3.9.SP05 para el contexto '/ExampleSpringJDBC'
+2023-01-08 16:03:32,205 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0021: Contexto de Web registrado: '/ExampleSpringJDBC' para el servidor 'default-server'
+2023-01-08 16:03:32,438 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Implementado "ExampleSpringJDBC-0.0.1-SNAPSHOT.war" (runtime-name : "ExampleSpringJDBC-0.0.1-SNAPSHOT.war")
+2023-01-08 16:03:32,694 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-01-08 16:03:32,709 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-01-08 16:03:32,719 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-01-08 16:03:32,725 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) inició en 26286ms - Inició 532 de 758 servicios (374 servicios son perezosos, pasivos o por demanda)
+2023-01-08 16:03:49,924 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 16:03:49,925 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-01-08 16:03:49,927 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 2 ms
+2023-01-08 16:04:02,183 INFO  [org.springdoc.api.AbstractOpenApiResource] (default task-1) Init duration for springdoc-openapi is: 283 ms
