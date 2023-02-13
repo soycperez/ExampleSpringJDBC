@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration>
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="true">
+	<!-- <param name="File" value="C:\\GestorOperaciones\\logs\\Operaciones.log" /> -->
+    <appender name="SERVICEREST" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="${jboss.server.log.dir}/Operaciones.log" />
+        <param name="MaxFileSize" value="500MB"/>
+        <param name="Append" value="true" />
+        <param name="Encoding" value="UTF-8"/>
+        <param name="ImmediateFlush" value="true" />
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p [%c] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="console" 
+              class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %2p %M %m\r\n" />
+        </layout>
+    </appender>
+	
+    <category name="com.sample">
+        <priority value="INFO"/>
+    </category>
+    <root>
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</log4j:configuration>
